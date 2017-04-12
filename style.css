@@ -1,4 +1,39 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.image-2 {
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+  border: solid black 1px;
+}
+
+.image-4 {
+  display: block;
+  width: 1400px;
+  margin: 0 auto;
+  border: solid black 1px;
+}
+
+.image-2-1 {
+  position: relative;
+  left: 10px;
+}
+
+/*.image-2-2 {
+  position: relative;
+  left: 75px;
+}*/
