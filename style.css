@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,26 +19,70 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote {
   margin: 0 auto;
 }
 
-.image-2 {
-  display: block;
-  width: 700px;
-  margin: 0 auto;
-  border: solid black 1px;
+h1 {
+  margin-top: 80px;
+  font-size: 42px;
+  line-height: 55px;
+  font-weight: bold;
 }
 
-.image-4 {
+h2 {
+  margin-top: 60px;
+  font-size: 31px;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 40px;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+h1 + p {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+div {
+  margin-top: 40px;
+}
+
+.image-1 {
+  margin-top: 40px;
   display: block;
-  width: 1400px;
+  width: 700px;
+  height: 300px;
   margin: 0 auto;
-  border: solid black 1px;
+  position: relative;
+}
+
+.image-2 {
+  margin-top: 40px;
+  display: block;
+  width: 1050px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image-1-1 {
+  position: absolute;
+  left: 25px;
+}
+
+.image-1-2 {
+  position: absolute;
+  right: 25px;
 }
 
 .image-2-1 {
-  position: relative;
-  left: 10px;
+  position: absolute;
+  right: 375px;
 }
-
-/*.image-2-2 {
-  position: relative;
-  left: 75px;
-}*/
