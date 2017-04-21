@@ -1,6 +1,6 @@
 .sidebar {
   position: fixed;
-  top: 70px;
+  top: 80px;
   left: 20px;
   width: 230px;
   padding: 13px 30px;
@@ -23,20 +23,6 @@
   font-weight: bold;
 }
 
-.sidebar > ul * li {
-  padding-left: 10px;
-  color: rgba(0, 0, 0, 0.4);
-}
-
 .sidebar > ul > li:hover {
   font-weight: bold;
-}
-
-.sidebar > ul > li:hover * li {
-  font-weight: normal;
-}
-
-.sidebar > ul * li:hover {
-  color: black;
-  font-weight: normal;
 }
