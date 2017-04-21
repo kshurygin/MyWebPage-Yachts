@@ -1,0 +1,42 @@
+.sidebar {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  width: 230px;
+  padding: 13px 30px;
+  opacity: .05;
+  transition: all .3s ease;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.sidebar:hover {
+  opacity: 1;
+}
+
+.sidebar li {
+  margin-top: 12px;
+  line-height: 14px;
+  font-size: 15px
+}
+
+.sidebar > ul > li:first-child {
+  font-weight: bold;
+}
+
+.sidebar > ul * li {
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sidebar > ul > li:hover {
+  font-weight: bold;
+}
+
+.sidebar > ul > li:hover * li {
+  font-weight: normal;
+}
+
+.sidebar > ul * li:hover {
+  color: black;
+  font-weight: normal;
+}
