@@ -101,7 +101,7 @@
 }
 
 .description-text {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.5);
     padding:10px;
     top: 0;
     z-index: 4;
