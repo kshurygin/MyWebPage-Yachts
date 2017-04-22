@@ -1,9 +1,9 @@
 
 .slider {
     display: block;
-    height: 600px;
+    height: 500px;
     /*min-width: 260px;*/
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
     margin-top: 20px;
     padding-bottom: 50px;
@@ -33,7 +33,7 @@
 
 .sliderinner>ul>li {
     width: 16.6666%;
-    height: 600px;
+    height: 500px;
     float: left;
     position: relative;
 }
