@@ -1,0 +1,27 @@
+https://medium.com/@marcintreder/design-system-sprint-2-one-color-palette-to-rule-them-all-d0114ed1f659
+
+/****************************************************
+http://atomicdesign.bradfrost.com/table-of-contents/
+http://carbondesignsystem.com/
+/****************************************************
+
+
+Colors
+
+#006CFF Blue (main brand color)
+#666666 Gray
+#FF003C Red (error & danger color)
+#63ad0e Green (success color)
+#ffc000 Orange (warning color)
+#7800ff Violet
+#ff56b1 Pink
+#00ffde Mint
+
+@base-blue: #006CFF
+@base-gray: #666666
+@base-red: #FF003C
+@base-green: #63ad0e
+@base-orange: #ffc000
+@base-violet: #7800ff
+@base-pink: #ff56b1
+@base-mint: #00ffde
